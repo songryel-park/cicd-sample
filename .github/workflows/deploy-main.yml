@@ -2,7 +2,7 @@ name: Deploy to cloudtype
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: # 워크스페이스 이름/프로젝트 이름 ex) nbc.docker/cicd
-          stage: main
+          stage: master
           yaml: |
             name: # 프로젝트 이름 ex) `cicd`
             app: java@17
