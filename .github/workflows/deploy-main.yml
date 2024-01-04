@@ -18,7 +18,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: fuf3413/cicd-samlpe
+          project: fuf3413/cicd
           stage: main
           yaml: |
             name: cicd
