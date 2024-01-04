@@ -21,7 +21,7 @@ jobs:
           project: fuf3413/cicd-sample
           stage: master
           yaml: |
-            name: cicd-sample
+            name: 
             app: java@17
             options:
               ports: 8080
