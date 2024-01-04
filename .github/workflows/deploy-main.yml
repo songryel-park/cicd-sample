@@ -18,7 +18,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: songryel-park/cicd-sample
+          project: fuf3413/cicd-sample
           stage: master
           yaml: |
             name: cicd-sample
